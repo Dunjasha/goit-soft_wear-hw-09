@@ -1,0 +1,17 @@
+[project]
+name = "goit-soft-wear-hw-09"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Dunjasha",email = "danylsavenkvo@gmai.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "scrapy (>=2.13.2,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
